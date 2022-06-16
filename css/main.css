@@ -516,6 +516,13 @@ body {
     border-radius: 5px;
 }
 
+.submit-btn:hover{
+    background-color: #00bafccc;
+}
+.submit-btn:active{
+    background-color: var(--link-active-bgcolor);
+}
+
 .site-footer {
     padding: 56px 0;
     background-color: #191919;
