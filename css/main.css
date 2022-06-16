@@ -349,6 +349,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-bottom: 0;
     padding-left: 0;
     list-style: none;
 }
@@ -409,6 +410,10 @@ body {
 .work-item:nth-child(5)::before {
     height: 232px;
     background-image: url("../images/support-illustration.svg");
+}
+
+.work-item:nth-child(5){
+    margin-bottom: 40px;
 }
 
 
